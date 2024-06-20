@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="slides">
+            <img src="images/img1.jpg" alt="Image 1">
+            <img src="images/img2.jpg" alt="Image 2">
+            <img src="images/img3.jpg" alt="Image 3">
+            <!-- Add more images as needed -->
+        </div>
+        <div class="controls">
+            <button class="prev" onclick="changeSlide(-1)">&#10094; Prev</button>
+            <button class="next" onclick="changeSlide(1)">Next &#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+
+</html>
